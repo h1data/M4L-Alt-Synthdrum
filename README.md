@@ -10,7 +10,7 @@ Yet another simple monophonic drum synth. Yes, inspired by 1970's drum synths.
 - Rectangle wave is made of simulated RC circuits. Also has additional saw wave for VCO and LFO.
 
 ## Sound Sample
-https://github.com/h1data/M4L-Alt-Synthdrum/blob/main/sample.mov
+https://github.com/h1data/M4L-Alt-Synthdrum/assets/77904565/60409d31-0fa1-4c57-b4d1-26f66baa308d
 
 ## Parameters
 (ordered in the appearance of the automation control chooser list)
