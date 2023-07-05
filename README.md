@@ -1,21 +1,37 @@
+# Alt-Synthdrum
+![image of Alt-Synthdrum](img/ALT-Synthdrum_image.jpg)
+## What is this?
+A Max for Live instrument device;
 Yet another simple monophonic drum synth. Yes, inspired by 1970's drum synths.
 
-Changes in version 1.1.0 (May 2, 2020)
+### features:
+- Punchy pseudo attack sound. ("ATTACK" dial is for volume, not attack rate)
+- Dynamic LFO and SWEEP generator.
+- Rectangle wave is made of simulated RC circuits. Also has additional saw wave for VCO and LFO.
 
-- UI color scheme is now based on Live theme/skin and improved visibility in dark themes
-...but wait, what's in the red LED??
-- Fixed an issue where the device may make extra undo histories.
+## Sound Sample
+https://github.com/h1data/M4L-Alt-Synthdrum/blob/main/sample.mov
 
-Changes in version 1.0.7 (March 2, 2020)
-- Corrected small uneven alignments of UI.
+## Parameters
+(ordered in the appearance of the automation control chooser list)
+- `MODE` Switches between LINE mode and ADSR mode. (the name is came from Max objects; line~ and adsr~)
+- `LINE` mode has no latency from triggered to sound. ADSR mode has about 1 msec latency but no clicking sound when retriggered. (default: ADSR)
+- `SENSE` (Sensitivity) Adjusts the velocity sensitivity.
+- `B.Tune` (Beat Tune): Adjusts how much pitch to tune by note velocity. Specified by the number of octaves.
+- `VCO` (VCO Tuning): Adjusts the pitch finely.
+- `OCTAVE` (VCO Octave): Adjusts the octave of the sound.
+- `WAVE` (VCO Waveform): Switches VCO waveform.
+- `ATTACK` Adjusts the volume of pseudo attack sound; NOT attack rate of ADSR.
+- `SUSTAIN` Adjust the sustain time of the sound.
+- `LFO` (LFO Depth): Adjusts the depth of LFO.
+- `FREQ.` (LFO Frequency): Adjusts the rate of LFO.
+- `WAVE` (LFO Waveform): Switches LFO waveform.
+- `SWEEP` (SWEEP Depth): Adjusts sweep depth in octave.
+- `DIRECTION` (SWEEP Direction): Switches sweep direction from UP, DWN (down), and OFF.
+- `OUTPUT` (OUTPUT Level): Adjusts the output level.
 
-Changes in version 1.0.6 (March 2, 2019)
-- Improve responses in ADSR mode.
-- Reduced CPU usage.
-- Fixed some bugs.
+## Known Issues
+see [Issues](https://github.com/h1data/M4L-Alt-Synthdrum/issues?q=+)
 
-Check URL for more descriptions and sound samples.
-
-Created and checked functional only on Windows 10.
-Please inform the author if the device works or doesn't
-on macOS, or has any inconveniences.
+## Special Thanks
+Mr. Tommy, the great predecessor who developed SDS2002.
