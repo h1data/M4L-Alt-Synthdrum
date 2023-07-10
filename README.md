@@ -12,9 +12,12 @@ Yet another simple monophonic drum synth. Yes, inspired by 1970's drum synths.
 ## Sound Sample
 https://github.com/h1data/M4L-Alt-Synthdrum/assets/77904565/60409d31-0fa1-4c57-b4d1-26f66baa308d
 
+## Requirements
+- Ableton Live 9.7.7 / Cycling '74 Max 6.1.7 or later
+
 ## Parameters
 (ordered in the appearance of the automation control chooser list)
-- `MODE` Switches between LINE mode and ADSR mode. (the name is came from Max objects; line~ and adsr~)
+- `MODE` Switches between LINE mode and ADSR mode. (the name comes from Max objects; line~ and adsr~)
 - `LINE` mode has no latency from triggered to sound. ADSR mode has about 1 msec latency but no clicking sound when retriggered. (default: ADSR)
 - `SENSE` (Sensitivity) Adjusts the velocity sensitivity.
 - `B.Tune` (Beat Tune): Adjusts how much pitch to tune by note velocity. Specified by the number of octaves.
