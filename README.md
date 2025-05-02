@@ -13,7 +13,7 @@ Yet another simple monophonic drum synth. Yes, inspired by 1970's drum synths.
 https://github.com/h1data/M4L-Alt-Synthdrum/assets/77904565/60409d31-0fa1-4c57-b4d1-26f66baa308d
 
 ## Requirements
-- Ableton Live 9.7.7 / Cycling '74 Max 6.1.7 or later
+- Ableton Live 9.7.7 / Cycling '74 Max 7.3.5 or later
 
 ## Parameters
 (ordered in the appearance of the automation control chooser list)
