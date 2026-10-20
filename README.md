@@ -34,7 +34,7 @@ https://github.com/h1data/M4L-Alt-Synthdrum/assets/77904565/60409d31-0fa1-4c57-b
 - `OUTPUT` (OUTPUT Level): Adjusts the output level.
 
 ## Known Issues
-see [Issues](https://github.com/h1data/M4L-Alt-Synthdrum/issues?q=+)
+see the [issue](https://github.com/h1data/M4L-Alt-Synthdrum/issues/2)
 
 ## Special Thanks
 Mr. Tommy, the great predecessor who developed SDS2002.
